@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./atividade1.css"> 
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <title>Atividade 1</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Atividade</h1>
+      </nav>
+    </header>
+    <div class="conteudo">
+      <h1>Atividade 1</h1>
+      <p class="texto">
+        Solicite ao usuário o valor total da compra e a quantidade de parcelas a financiar e o sistema deve mostrar o valor de cada parcela.
+      </p>
+    </div>
+    <div class="container">
+        <h1>Calculadora de Parcelas</h1>
+        <div class="form-group">
+            <label para="total-compra">Valor total da compra (R$):</label>
+            <input type="number" id="total-compra" min="1" step="0.01" placeholder="Ex: 1000.00" autofocus>
+        </div>
+        <div class="form-group">
+            <label para="parcelas">Número de Parcelas:</label>
+            <div class="botoes">
+                <button onclick="selecionarParcelas(1)" id="parcela-1">1</button>
+                <button onclick="selecionarParcelas(2)" id="parcela-2">2</button>
+                <button onclick="selecionarParcelas(4)" id="parcela-4">4</button>
+            </div>
+        </div>
+        <div class="calcular">
+            <button onclick="calcularParcelas()">Calcular Parcelas</button> 
+        </div>
+        <div class="result" id="resultado">Resultado</div>
+    </div>
+    <div class="voltar">
+      <a href="../pagina inicial/paginaInicial.html" class="btn-voltar">Voltar para a Página Inicial</a>
+    </div>
+    <script src="./atividade1.js"></script>
+  </body>
+</html>

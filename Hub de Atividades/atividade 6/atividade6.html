@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../atividade 6/atividade6.css">
+    <title>Atividade 6</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <h1>Atividade</h1>
+        </nav>
+      </header>
+    <div class="conteudo">
+        <h1>Atividade 6</h1>
+        <p class="texto">
+          Solicite ao usuário o preço do produto e a condição de pagamento conforme a tabela abaixo, exiba o valor real do produto e o valor a ser pago
+        </p>
+        <div class="tabela">
+            <h1 class="titulotabela">Tabela de Condições de Pagamento</h1>
+            <table>
+                <tr>
+                    <th>Código</th>
+                    <th>Condição de Pagamento</th>
+                    <th>Ação</th> 
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>À vista com 10% de desconto</td>
+                    <td><button class="selecionar" onclick="selecionarOpcao(1, 'À vista com 10% de desconto', this)">Selecionar</button></td> 
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Cartão com 5% de desconto</td>
+                    <td><button class="selecionar" onclick="selecionarOpcao(2, 'Cartão com 5% de desconto', this)">Selecionar</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Parcelado com 10% de juros</td>
+                    <td><button class="selecionar" onclick="selecionarOpcao(3, 'Parcelado com 10% de juros', this)">Selecionar</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+            <h1>Preço do Produto</h1>
+            <div class="form-group">
+                <label para="nomeProduto">Digite o nome do Produto:</label>
+                <input type="text" id="nomeProduto" min="1" step="0.01" placeholder="Ex: Celular" autofocus>
+                <label para="valor">Digite o Valor:</label>
+                <input type="number" id="valor" min="1" step="0.01" placeholder="Ex: 4">
+            </div>
+            <div class="calcular"> 
+                <button onclick="Calcule()">Calcule</button> 
+            </div>
+            <div class="result" id="resultado">Resultado</div>
+    </div>
+    <div class="voltar">
+        <a href="../pagina inicial/paginaInicial.html" class="btn-voltar">Voltar para a Página Inicial</a>
+    </div>   
+    <script src="../atividade 6/atividade6.js"></script>    
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* Corpo da página */
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+
+header {
+    background-color: #4CAF50;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+.conteudo {
+    padding: 20px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cria a grade */
+    gap: 20px; /* Espaçamento entre os cards */
+    padding: 20px;
+}
+
+/* Estilo para os cards */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center; /* Alinha o texto no centro */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animações suaves */
+}
+
+/* Efeito ao passar o mouse sobre o card */
+.card:hover {
+    transform: scale(1.05); /* Aumenta um pouco o tamanho */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombras mais profundas */
+}
+
+/* Estilo para links dentro dos cards */
+.card a {
+    text-decoration: none;
+    font-size: 18px; /* Tamanho maior para legibilidade */
+    color: #4CAF50; /* Cor para links */
+    font-weight: bold; /* Destacar o link */
+    transition: color 0.3s; /* Transição suave para cor */
+}
+
+/* Efeito ao passar o mouse sobre links */
+.card a:hover {
+    color: #388E3C; /* Cor mais escura ao passar o mouse */
+}
+
+.descrição{
+    text-align: justify;
+    font-size: 15px;
+}

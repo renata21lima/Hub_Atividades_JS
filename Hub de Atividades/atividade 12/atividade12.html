@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../atividade 12/ativadade12.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <title>Atividade 12</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Atividade 12</h1>
+        </nav>
+    </header>
+    <div class="conteudo">
+        <h2>Jogo da advinhação</h2>
+        <p class="texto">
+            Solicite ao usuario que chute um numero de 0 a 100. O sistema dira se o chute pe maior ou menor que o numero digitado
+        </p>
+        <div class="numeroChute">
+            <h2>Jogo da advinhação</h2>
+            <label for="numero">Digite um Número:</label>
+            <input type="number" name="numero" id="numeroUsuario" placeholder="Ex: 1" autofocus>
+            <div class="chutar"> 
+                <button onclick="chutar()">Chute</button> 
+            </div>
+            <div class="result" id="resultado">Resultado:</div>
+        </div>
+        <div class="voltar">
+            <a href="../pagina inicial/paginaInicial.html" class="btn-voltar">Voltar para a Página Inicial</a>
+        </div>      
+        <script src="../atividade 12/atividade12.js"></script>
+</body>
+</html>

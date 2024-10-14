@@ -1,0 +1,129 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #4caf50;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+.conteudo {
+  padding: 20px;
+}
+
+.conteudo h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.texto {
+  font-size: 16px;
+  color: #555;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+}
+
+.numeroChute {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.numeroChute h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+}
+.numeroChute label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.numeroChute input {
+  margin-bottom: 10px;
+  width: 96%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.numeroChute input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+}
+
+.chutar button {
+  padding: 10px 20px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #4caf50;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.voltar {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.voltar .btn-voltar {
+  display: inline-block; 
+  padding: 10px 20px; 
+  background-color: #e0e0e0; 
+  border: none; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  color: #333; 
+  font-weight: bold;
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+}
+
+.voltar .btn-voltar:hover {
+  background-color: #d0d0d0;
+}
+
+.voltar .btn-voltar:active, 
+.voltar .btn-voltar:focus {
+  background-color: #4CAF50; 
+  color: white;
+}

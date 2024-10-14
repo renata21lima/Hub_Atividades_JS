@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../atividade 7/atividade7.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <title>Atividade 7</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <h1>Atividade</h1>
+        </nav>
+      </header>
+    <div class="conteudo">
+        <h1>Atividade 7</h1>
+        <p class="texto">
+          Solicite ao usario o peso altura e sexo para fazer o calculo de IMC, e mostre de acordo com  a OMS  a categoria ao qual se enquandra
+        </p>
+    </div>
+    <div class="tabela">
+        <h1 class="titulotabela">Tabela do IMC</h1>
+        <table>
+            <tr>
+                <th>Condição</th>
+                <th>IMC em Mulheres</th>
+                <th>IMC em Homens</th> 
+            </tr>
+            <tr>
+                <td>Abaixo do Peso</td>
+                <td> Menor que 19.1 </td>
+                <td> Menor que 20.7</td> 
+            </tr>
+            <tr>
+                <td>No peso Normal</td>
+                <td> 19.1 - 25.8</td>
+                <td> 20.7 - 26.4</td>
+            </tr>
+            <tr>
+                <td>Marginalmente acima do Peso</td>
+                <td> 25.8 - 27.3</td>
+                <td> 26.4 - 27.8</td>
+            </tr>
+            <tr>
+                <td>Acima do peso Ideal</td>
+                <td> 27.3 - 32,3</td>
+                <td> 27.8 - 31.1</td>
+            </tr>
+            <tr>
+                <td>Obeso</td>
+                <td> Maior que 32,3</td>
+                <td> Maior que 31.1</td>
+            </tr>
+        </table>
+    </div>
+    <div class="container">
+        <h1>Formulário</h1>
+        <div class="form-group">
+            <label para="nomeProduto">Digite seu Nome:</label>
+            <input type="text" id="nomeProduto" placeholder="Ex: João" autofocus>
+            
+            <label para="altura">Digite sua Altura (m):</label>
+            <input type="number" id="altura" step="0.01" placeholder="Ex: 1.67"> 
+            
+            <label para="peso">Digite seu Peso (kg):</label>
+            <input type="number" id="peso" step="0.01" placeholder="Ex: 77">
+            
+            <div class="sexo">
+                <label>Sexo:</label> 
+                <input type="radio" id="sexoMasculino" name="sexo" value="Masculino">
+                <label for="sexoMasculino">Masculino</label> 
+                
+                <input type="radio" id="sexoFeminino" name="sexo" value="Feminino">
+                <label for="sexoFeminino">Feminino</label> 
+            </div>
+        </div>        
+        <div class="calcular"> 
+            <button onclick="Calcule()">Calcule</button> 
+        </div>
+        <div class="result" id="resultado">Resultado</div>
+    </div>
+    <div class="voltar">
+        <a href="../pagina inicial/paginaInicial.html" class="btn-voltar">Voltar para a Página Inicial</a>
+      </div>
+    <script src="../atividade 7/atividade7.js"></script>    
+</body>
+</html>
