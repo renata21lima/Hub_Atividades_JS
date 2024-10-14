@@ -18,8 +18,6 @@ As atividades abordam a resolução de problemas comuns no desenvolvimento web, 
 - **CSS3**: Estilização das interfaces.
 - **JavaScript (DOM)**: Manipulação dos elementos da página para criar interatividade.
 
-## 📂 Estrutura do Projeto
-
 ## 📈 Desafios e Aprendizados:
 
 Durante o desenvolvimento deste projeto, aprimorei minhas habilidades em **JavaScript**, principalmente na manipulação do **DOM** e no controle de eventos, além de aplicar boas práticas de **HTML** e **CSS** para criar interfaces mais responsivas e amigáveis.
